@@ -5,8 +5,8 @@
     /* Warm Sand */
     --accent1-color: #367588;
     /* Teal Blue */
-    --accent2-color: #ffe854;
-    /* Marigold Yellow */
+    --accent2-color: #008080;
+    /* Teal */
     --heading-font: "Times New Roman", "Georgia," serif;
     --body-font: Arial, Helvetica, sans serif;
 }
@@ -78,9 +78,20 @@ h1 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: #fff;
+}
+
 footer img {
     float: bottom;
-    margin: 100px;
-    width: 50px;
+    margin: 10px;
+    width: 40px;
     padding: 2px;
 }
