@@ -1,8 +1,6 @@
 :root {
     --primary-color: #0077be;
     /* Ocean Blue */
-    --secondary-color: #f4a261;
-    /* Warm Sand */
     --accent1-color: #367588;
     /* Teal Blue */
     --accent2-color: #008080;
@@ -90,7 +88,6 @@ h1 {
 }
 
 footer img {
-    float: bottom;
     margin: 10px;
     width: 40px;
     padding: 2px;
