@@ -1,0 +1,45 @@
+<!--October 1st 2026-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1>Spooky Survey</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1">1. What scares you the most?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item box">
+                <label for="q2">2. What is your favorite part about halloween?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+            <div class="quiz-item box">
+                <label for="q3">3. Who would you most likely let into your home at night?</label>
+                <select type="text" id="q3" name="q3">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="a">A. Dracula</option>
+                    <option value="b">B. Loch Ness Monster </option>
+                    <option value="c">C. Group of Pranksters </option>
+                </select>
+            </div>
+            <div class="quiz-item box">
+                <label for="q4">4. What day works best to celebrate this year among these
+                    dates?</label>
+                <date class="box">2, 3, 9, 10, 16, 17, <br> 23, 24, 30, 31</date>
+                <input type="number" id="qr" name="q4">
+            </div>
+            <button type="submit">Spooky submit button</button>
+        </form>
+    </main>
+</body>
+
+</html>
