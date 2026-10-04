@@ -92,7 +92,7 @@ article {
 }
 
 h1 {
-    position: flex;
+    align-items: center;
     top: 20px;
     width: 100%;
     padding: 16px;
