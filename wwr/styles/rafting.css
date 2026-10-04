@@ -33,11 +33,6 @@ footer {
     margin: 0 auto;
 }
 
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 article {
     margin: 10px;
     position: absolute;
@@ -113,6 +108,8 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 .history-text {
