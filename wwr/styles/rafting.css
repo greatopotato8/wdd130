@@ -93,14 +93,12 @@ article {
 }
 
 h1 {
-    position: absolute;
+    position: flex;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+
 }
 
 .hero article {
