@@ -107,6 +107,7 @@ h1 {
 }
 
 h2 {
+    margin-top: 16px;
     text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -115,6 +116,22 @@ h2 {
 .history-text {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.homep {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.home-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.home-text img {
+    width: 100%;
 }
 
 section img {
@@ -215,6 +232,52 @@ button {
 
 .managecap {
     margin-left: 80px;
+}
+
+/*trips*/
+
+.touch {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.touch a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.tripselect1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 16px;
+}
+
+.tripselect2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 16px;
+}
+
+.tripselect1 img,
+.tripselect2 img {
+    width: 100%;
+    padding: 20px;
+}
+
+.tripselect1 a,
+.tripselect2 a {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--accent1-color);
 }
 
 /*footer*/
